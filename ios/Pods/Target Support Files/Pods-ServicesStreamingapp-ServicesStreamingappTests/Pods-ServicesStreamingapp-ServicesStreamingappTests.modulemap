@@ -1,0 +1,6 @@
+module Pods_ServicesStreamingapp_ServicesStreamingappTests {
+  umbrella header "Pods-ServicesStreamingapp-ServicesStreamingappTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

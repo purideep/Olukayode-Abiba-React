@@ -8,6 +8,8 @@
 /**
  * Colors
  */
+import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
+
 export const Colors = {
   // Example colors:
   transparent: 'rgba(0,0,0,0)',
@@ -32,6 +34,10 @@ export const FontSize = {
   large: 18,
 }
 
+export const MarginCommon = {
+  left:wp('50%'),
+}
+
 /**
  * Metrics Sizes
  */
@@ -45,3 +51,5 @@ export const MetricsSizes = {
   regular,
   large,
 }
+
+

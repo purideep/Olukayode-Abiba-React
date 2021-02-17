@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { View, ActivityIndicator, Text, TextInput, Button } from 'react-native'
-import { Brand } from '@/Components'
+import { Login } from '@/Components'
 import { useTheme } from '@/Theme'
 import FetchOne from '@/Store/User/FetchOne'
 import { useTranslation } from 'react-i18next'
@@ -32,7 +32,7 @@ const IndexExampleContainer = () => {
   return (
     <View style={[Layout.fill, Layout.colCenter, Gutters.smallHPadding]}>
       <View style={[[Layout.colCenter, Gutters.smallHPadding]]}>
-        <Brand />
+        <Login />
         {fetchOneUserLoading && <ActivityIndicator />}
         {fetchOneUserError ? (
           <Text style={Fonts.textRegular}>{fetchOneUserError.message}</Text>
@@ -63,7 +63,7 @@ const IndexExampleContainer = () => {
         />
       </View>
       <Text style={Fonts.textRegular}>DarkMode :</Text>
-      <Button onPress={() => changeTheme({ darkMode: null })} title="Auto" />
+      <Button onPress={() => changeTheme({ darkMode: null })} title="Ausdfto" />
       <Button onPress={() => changeTheme({ darkMode: true })} title="Dark" />
       <Button onPress={() => changeTheme({ darkMode: false })} title="Light" />
     </View>

@@ -1,0 +1,4 @@
+#Tue Feb 16 18:11:27 EST 2021
+base.0=/Users/deepshikha/Projects/Sean Padron/mobile-mvp/template/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

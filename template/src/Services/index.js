@@ -1,8 +1,9 @@
 import axios from 'axios'
-import { Config } from '@/Config'
+// import { Config } from '@/Config'
+const url =""
 
 const instance = axios.create({
-  baseURL: Config.API_URL,
+  baseURL: url,
   headers: {
     Accept: 'application/json',
     'Content-Type': 'application/json',
